@@ -216,6 +216,7 @@ Yash Verma
 
 <https://pretalx.com/pycascades-2025/talk/P9VSLS/>
 
+Pre-recorded talk.  Gneral OTEL discussion
 
 ---
 
