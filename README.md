@@ -226,6 +226,14 @@ Vagrant Cascadian
 
 <https://pretalx.com/pycascades-2025/talk/DUZVPC/>
 
+<vagrant@reproducible-builds.org>
+
+<https://reproducible-builds.org/>
+
+Tools:
+
+* <https://diffoscope.org/>
+* <https://salsa.debian.org/reproducible-builds/reprotest>
 
 ---
 
