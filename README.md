@@ -169,6 +169,34 @@ Sev Leonard
 
 <https://pretalx.com/pycascades-2025/talk/F7NMZ3/>
 
+Wrote Cost Effective Data Pipelines from O'Reilly
+
+data fire risk analogy to wild fire risk
+
+* Prevention
+  * less combustable materials -> data validation
+* Monitoring
+  * websites -> data quality
+* Alerting
+  * etc
+
+JSON schemas to validate data
+
+PySpark example of reading corrupted data.  Kafka example & DLQ,
+Airflow example, databricks example with constraints, dbt example
+
+Automated unit testing to create defensible space
+
+* barriers:
+  * code structure
+  * maintaining test data
+
+Example of taking spark code & breaking into functions
+
+`tenacity` library for retrying: <https://pypi.org/project/tenacity/> and <https://tenacity.readthedocs.io/en/latest/>
+
+* <https://thedatascout.com>
+* <https://github.com/gizm00>
 
 ---
 
