@@ -45,6 +45,52 @@ Jeremiah Paige
 
 <https://pretalx.com/pycascades-2025/talk/3US9MT/>
 
+"If you write code, you share code"
+
+Everyone shares code, even if only with themselves on a single machine.
+
+```shell
+PYTHONPATH="/path/to/zip/file.zip:$PYTHONPATH" python
+```
+
+Didn't realize you could just add a zip file like this to PYTHONPATH.
+
+Sharing Code is a 3 step exercise:
+
+* wrapping
+* delivering
+* unwrapping
+
+or
+
+* packaging
+* dsitributig
+* installing (I think?  missed this one before slide moved on)
+
+THe best sharing strategy is the one that works every time
+
+Strategies:
+
+* reduce number of steps
+* reduce choices for users
+* following best practices, represent inertia & community knowledge
+  * ex `pip install`, etc
+
+Inline metadata, new thing:
+<https://packaging.python.org/en/latest/specifications/inline-script-metadata/>
+-- look into this
+
+Restructure into package, outline Python project structure:
+
+* have a pyproject.toml
+* python code in a dir of python files
+* all Python di has an `__init__.py` file
+
+hatch example of building package
+
+Arrive at wheel as output distribution mechanism
+
+Code is installed much more than it is packaged
 
 ---
 
