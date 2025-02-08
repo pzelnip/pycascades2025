@@ -4,12 +4,38 @@
 
 ---
 
+## Opening Remarks
+
+Same format as previous years.
+
+* <https://2025.pycascades.com/about/health-and-safety-policy>
+* <https://2025.pycascades.com/about/code-of-conduct>
+
+Snowball Rule, intro yourself to one person per day for every year you've come
+
+Goals:
+
+* Have Fun
+* Learn Something New
+* Make new friends
+
+---
+
 ## Web Maps, 2 Ways with Streamlit and PyScript
 
 Christy Heaton
 
 <https://pretalx.com/pycascades-2025/talk/LQCJYR/>
 
+* <mas.to/@christyheaton>
+* <https://github.com/christyheaton/web_maps_2_ways_pycascades_2025>
+* <https://streamlit.io/>
+
+Neat demo/walkthrough of using Streamlit and Pyscript to build a
+web app with a hiking map that supports interactivity (all Python).
+
+Streamlit feels more like a targetted tool, but is straight Python.
+Pyscript feels more general purpose but there's a Python/JS split.
 
 ---
 
@@ -49,7 +75,7 @@ Lilinoe Harbottle
 
 ---
 
-## Observability Matters: Empowering Python Developers with OpenTelemetry.
+## Observability Matters: Empowering Python Developers with OpenTelemetry
 
 Yash Verma
 
@@ -175,7 +201,7 @@ Sage Elliott
 
 ---
 
-## PyLadies Panel: Talking about experiences and roles within the Python community.
+## PyLadies Panel: Talking about experiences and roles within the Python community
 
 Drishti Jain, Parul Gupta, Lilinoe Harbottle, Nasim
 
