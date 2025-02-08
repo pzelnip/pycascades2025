@@ -101,6 +101,66 @@ Adarsh Divakaran
 <https://pretalx.com/pycascades-2025/talk/MSBEKD/>
 
 
+GIL overview
+
+PEP 703
+
+* free threaded mode build
+* backward compatibility issues with C extensions that assume GIL is in effect
+* some single threaded code will be slower
+
+<https://py-free-threading.github.io/installing_cpython>
+
+* There's official installers
+
+Verify setup (only present in the freethreaded build):
+
+```python
+sys._is_gil_enabled()
+sysconfig.get_config_vars().get('Py_GIL_DISABLED')
+```
+
+The changes - huge diff, changing 15K LOC, and adding 15K LOC from mimalloc
+
+Benchmarks
+
+* demo single threaded program.
+  * using timeit module
+  * for loop that just goes for several million iterations
+  * with GIL, about 3.9, 3.04 secs (around 3 secs)
+  * with free threaded, about 4.7, 4.0 secs (around 3.9 secs)
+  * for single threaded programs, free threaded mode has negative impact on perf
+* cpu bounded, single threaded vs multithreaded
+  * summing numbers in single thread and in a threadpool
+  * with free threaded interpreter:
+    * single 3.7, 3.8
+    * multi 1.3, 1.38
+  * with GIL enabled:
+    * single 5, 3.6
+    * multi 3.4, 3.5
+  * again free threaded perf hit on single thread, but multithread huge gain
+* IO bounded program
+  * opening file, write to it, seek, read, and then remove
+  * with gil enabled
+    * single thread 5.57, 5.6
+    * free threaded with threadpool 5.14, 4.3
+  * with free threaded no GIL
+    * single thread 6, 3.9, 4.5
+    * free threaded with threadpool 5.3, 4.8, 4.4
+* wsgi example using flask
+  * 2 api endpoints 1 with io bound & other cpu bound
+  * use k6 tool for benchmarking (looks like a mini vresion of locust)
+  * with gil enabled
+    * cpu bound: 36 requests in 20 secs
+    * io bound: 95 requests in 20 secs
+  * with free threaded no GIL,
+    * cpu bound: 80 requests in 20 secs
+    * io bound: 66 requests in 20 secs
+
+In future perf penalties will be reduced for free threaded interpreter
+
+<https://linkhq.co/adarsh>
+
 ---
 
 ## Only You Can Prevent Data Fires - Getting Proactive About Data Quality
