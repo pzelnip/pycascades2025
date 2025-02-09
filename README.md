@@ -466,6 +466,7 @@ Async views
 
 Offload background tasks with Celery
 
+`@veldakiara`
 
 General Django perf tips.
 
@@ -477,6 +478,15 @@ Aji Fama Jobe
 
 <https://pretalx.com/pycascades-2025/talk/PKDT8S/>
 
+Visibility vs participation, 70% of members participate, but only 30% are widely recognized
+
+Maintainers often promote contributors who engage in discussions, write about
+their work, or speak at events.
+
+So they started writing blog posts, presented at local PyCon meetup, and code
+reviews on Github.  Led to recognition as a core contributor, etc.
+
+Lots of motivation about encouring folks to share their knowledge.
 
 ---
 
