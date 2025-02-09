@@ -401,6 +401,11 @@ Allen Y, M Aswin Kishore
 
 <https://pretalx.com/pycascades-2025/talk/SJ7K3G/>
 
+Parallelism vs Concurrency
+
+GIL issue, overview of threaded example
+
+Discussion of various async examples and some internals
 
 ---
 
