@@ -292,6 +292,33 @@ Avik Basu
 
 <https://pretalx.com/pycascades-2025/talk/LVWE7D/>
 
+Mono-repo single codebase, multiple projects
+
+Projects can be:
+
+1. libraries
+2. applications
+3. scripts & automation
+4. explorations and experiments
+
+What could go wrong with a mono-repo?
+
+* version decisions
+* ci/cd complexity
+* merging and conflicts
+* code ownership issues
+* need for specialized tools
+* unintended code breakage
+
+What do they make sense?
+
+* interrelated projects with a common goal
+* small to medium level code-base
+* early stage projects and ideas
+  * better dev velocity
+  * easier promotion
+* different components have similar change rate
+* system level extensions, eg C/C++/Rust
 
 ---
 
