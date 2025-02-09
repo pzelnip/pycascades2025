@@ -328,6 +328,7 @@ Ryan Cheley
 
 <https://pretalx.com/pycascades-2025/talk/XFEF8V/>
 
+accepts error nots and ignores them, encouragiging a reactive culture of fire fighting
 
 ---
 
