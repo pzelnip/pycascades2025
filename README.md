@@ -415,6 +415,23 @@ Mason Egger
 
 <https://pretalx.com/pycascades-2025/talk/GYAF3K/>
 
+<https://github.com/masonegger>
+
+<https://mason.dev>
+
+The need for inclusive language in documentation
+
+Measurable Effects of noo-inclusive langfuage:
+
+* reduced engagement
+* lower confidence
+* perpetuates harmful stereotypes about who belongs
+
+Let's talk about Grammar
+
+Deep talk through the history of y'all as a gender neautral second person plural
+
+<https://vale.sh/>
 
 ---
 
