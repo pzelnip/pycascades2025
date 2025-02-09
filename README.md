@@ -373,6 +373,9 @@ Liam Beckman, Quinn Wai Wong, Nasim, Kyle Ellrott
 
 <https://pretalx.com/pycascades-2025/talk/REDHTM/>
 
+Deep dive on the use of a number of Python libraries to do
+cancer research.
+
 ---
 
 ## Building Resilient Applications with Circuit Breakers and Retries in FastAPI
@@ -381,6 +384,7 @@ Sameer Shukla
 
 <https://pretalx.com/pycascades-2025/talk/ZWYR8S/>
 
+ellrotlab.org
 
 ---
 
