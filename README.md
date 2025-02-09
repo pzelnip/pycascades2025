@@ -376,15 +376,22 @@ Liam Beckman, Quinn Wai Wong, Nasim, Kyle Ellrott
 Deep dive on the use of a number of Python libraries to do
 cancer research.
 
+ellrotlab.org
+
 ---
 
-## Building Resilient Applications with Circuit Breakers and Retries in FastAPI
+## As easy as breathing: manage your workflows with Airflow!
 
-Sameer Shukla
+Madison Swain-Bowden
 
-<https://pretalx.com/pycascades-2025/talk/ZWYR8S/>
+General overview of Airflow, and examples of jobs the speaker
+had where it improved workflow efficiency & reliability.
 
-ellrotlab.org
+Airflow as CI orchestration tool is an interesting thought.  Never
+thought of Airflow as someting that is comparable/competitive with
+Jenkins or Github Actions.
+
+<https://aetherunbound.net>
 
 ---
 
@@ -447,3 +454,13 @@ Sage Elliott
 Drishti Jain, Parul Gupta, Lilinoe Harbottle, Nasim
 
 <https://pretalx.com/pycascades-2025/talk/DNFUQ8/>
+
+
+
+---
+
+## Building Resilient Applications with Circuit Breakers and Retries in FastAPI
+
+Sameer Shukla
+
+<https://pretalx.com/pycascades-2025/talk/ZWYR8S/>
