@@ -243,6 +243,29 @@ Tadeh Hakopian
 
 <https://pretalx.com/pycascades-2025/talk/EAN3TM/>
 
+Clear, concise, useful (Zen of Python example)
+
+Graphic design fundamentals (6 categories)
+
+graphviz, diagrams (pip installable), python
+
+<https://pypi.org/project/diagrams/>
+
+Example of using this to build an ELB diagram.
+
+Plotly example (sankey diagram)
+
+<https://www.geeksforgeeks.org/sankey-diagram-using-plotly-in-python/>
+
+PyFlow
+
+C4 Model
+
+* <https://diagrams.mingrammer.com/docs/nodes/c4>
+
+Mermaid (using Markdown to generate diagrams), and draw.io
+
+Check out long version of the talk (QR code shared at start)
 
 ---
 
