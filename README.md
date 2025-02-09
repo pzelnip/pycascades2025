@@ -441,6 +441,33 @@ Velda Kiara
 
 <https://pretalx.com/pycascades-2025/talk/UNPUQD/>
 
+DB optimization:
+
+* indexing
+* select_related
+* prefetch_related
+* sharding
+  * custom db router (example of a simple router that shard's based on id)
+  * 3rd party package
+
+View rendering optimization:
+
+* using tags
+* fragment caching (`{% cache 600 sidebar %}`)
+* cache full views (`@cache_page` decorator)
+
+Efficient Serialization:
+
+* necessary fields only
+* custom serializers
+* gzip compression
+
+Async views
+
+Offload background tasks with Celery
+
+
+General Django perf tips.
 
 ---
 
