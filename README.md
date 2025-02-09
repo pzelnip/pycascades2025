@@ -332,12 +332,46 @@ accepts error nots and ignores them, encouragiging a reactive culture of fire fi
 
 ---
 
+## Lightning Talks
+
+### Overview of Wait Wait Stats
+
+<https://stats.wwdt.me>
+
+Weekly news quiz show on NPR in Chicago
+
+### A Talk (Nick Denny)
+
+A bit of history
+
+"Superb Own"
+
+### Regex or Line Noise
+
+Mason Egger
+
+### Black Python Devs
+
+Lazouich Ford
+
+<https://blackpythondevs.com>
+
+CTA about starting meetup groups
+
+### Side note
+
+Idea for lightning talk:
+
+* game format like the Regex or Line Noise, but "will mypy catch this?"
+* "Correctly typed or no?"
+
+---
+
 ## Data Science Garage: Building Tools for Genomic Research
 
 Liam Beckman, Quinn Wai Wong, Nasim, Kyle Ellrott
 
 <https://pretalx.com/pycascades-2025/talk/REDHTM/>
-
 
 ---
 
