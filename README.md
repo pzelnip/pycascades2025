@@ -249,7 +249,7 @@ Graphic design fundamentals (6 categories)
 
 graphviz, diagrams (pip installable), python
 
-<https://pypi.org/project/diagrams/>
+<https://pypi.org/project/diagramm
 
 Example of using this to build an ELB diagram.
 
@@ -275,6 +275,14 @@ Adam Harvey
 
 <https://pretalx.com/pycascades-2025/talk/P9SHDD/>
 
+xz backdoor story
+
+openssf scorecard <https://openssf.org/projects/scorecard/>
+
+Is there a budget for open source contribution?  Not only cash,
+but in kind time, or infrastructure, etc
+
+<https://lawngnome.github.io/quantifying-nebraska-pycascades>
 
 ---
 
