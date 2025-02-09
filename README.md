@@ -496,6 +496,25 @@ Drishti Jain
 
 <https://pretalx.com/pycascades-2025/talk/PY9SJT/>
 
+Python is at the forefront of climate science and sustainability efforts.
+
+Key libraries:
+
+* netCDF4
+* xarray
+* climatelearn
+* geopandas
+* rasterio
+* earthengine-api
+* pvlib
+* eco2ai
+
+Rasterio example
+
+pvlib example
+
+Example of quantifying climate risks using Python (put a number on
+the costs associated with climate change)
 
 ---
 
