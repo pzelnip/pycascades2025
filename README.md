@@ -524,6 +524,11 @@ Sage Elliott
 
 <https://pretalx.com/pycascades-2025/talk/SYYPNE/>
 
+Quick tutorial overview of using MicroPython to build a robot.
+
+<https://thonny.org>
+
+Sample code: <https://github.com/sagecodes/pi_pico_robot>
 
 ---
 
@@ -533,7 +538,11 @@ Drishti Jain, Parul Gupta, Lilinoe Harbottle, Nasim
 
 <https://pretalx.com/pycascades-2025/talk/DNFUQ8/>
 
+How can companies help:
 
+* Hosting community events
+* affinity groups
+*
 
 ---
 
@@ -542,3 +551,5 @@ Drishti Jain, Parul Gupta, Lilinoe Harbottle, Nasim
 Sameer Shukla
 
 <https://pretalx.com/pycascades-2025/talk/ZWYR8S/>
+
+CANCELLED
