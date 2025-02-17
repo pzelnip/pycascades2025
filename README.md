@@ -330,6 +330,8 @@ Ryan Cheley
 
 accepts error nots and ignores them, encouragiging a reactive culture of fire fighting
 
+Slides: <https://github.com/ryancheley/PyCascades2025/blob/main/Presentation.pdf>
+
 ---
 
 ## Lightning Talks
